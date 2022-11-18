@@ -9,32 +9,43 @@
 </head>
 
 <body>
-    <div class="header">
+
+    <!-- Changed div to section -->
+    <!-- Added aria-label to section -->
+    <section class="header" aria-label="header section">
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
-            <!-- Added nav tag for visually impaired -->
-            <nav>
-                <ul>
-                    <!--Added role="list item" to unordered list for  visually impaired -->
-                    <!--Added aria-controls to unordered list for visually impaired -->
-                    <li role="listitem" aria-controls="search-engine-optimization">
-                        <a href="#search-engine-optimization">Search Engine Optimization</a>
-                    </li>
-                    <li role="listitem" aria-controls="online-reputation-management">
- 
-                        <a href="#online-reputation-management">Online Reputation Management</a>
-                    </li>
-                    <li role="listitem" aria-controls="social-media-marketing">
 
-                        <a href="#social-media-marketing">Social Media Marketing!</a>
-                    </li>
-                </ul>
-            </nav>
+        <!-- Changed div to section -->
+        <section>
+               <!-- Added nav tag for visually impaired -->
+               <nav>
+                   <ul>
+                       <!--Added role="list item" to unordered list for  visually impaired -->
+                       <!--Added aria-controls to unordered list for visually impaired -->
+                       <li role="listitem" aria-controls="search-engine-optimization">
+                           <a href="#search-engine-optimization">Search Engine Optimization</a>
+                       </li>
+                       <li role="listitem" aria-controls="online-reputation-management">
+    
+                           <a href="#online-reputation-management">Online Reputation Management</a>
+                       </li>
+                       <li role="listitem" aria-controls="social-media-marketing">
+   
+                           <a href="#social-media-marketing">Social Media Marketing!</a>
+                       </li>
+                   </ul>
+               </nav> 
+            </section>
 
-        </div>
-    </div>
-    <div class="hero"></div>
-    <div class="content">
+    </section>
+
+    <!-- Changed div to section -->
+   
+    <section class="hero"></section>
+
+    <!-- Changed div to section -->
+
+    <section class="content">
         <!-- Added "alt" to all images for those who may not be able to see images-->
         <div class="search-engine-optimization" id="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="SEO written on a notepad" />
@@ -65,7 +76,7 @@
         </div>
     </div>
     <div class="benefits">
-        <div class="benefit-lead">
+        <div class="images">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" alt="half a cog with a funnel below and a coin below the funnel"/>
             <p>
@@ -89,13 +100,16 @@
                 need to advertise your page.
             </p>
         </div>
-    </div>
-    <div class="footer">
+    </section>
+
+    <!-- Changed div to section -->
+
+    <section class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
-    </div>
+    </section>
 </body>
 
 </html>

@@ -4,30 +4,40 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/aural.css">
     <title>website</title>
 </head>
 
 <body>
     <div class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <div class="navigationbar">
-            <ul>
-                <li>
-                    <a href="#search-engine-optimization">Search Engine Optimization</a>
-                </li>
-                <li>
-                    <a href="#online-reputation-management">Online Reputation Management</a>
-                </li>
-                <li>
-                    <a href="#social-media-marketing">Social Media Marketing!</a>
-                </li>
-            </ul>
+        <div>
+            <!-- Added nav tag for visually impaired -->>
+            <nav>
+                <ul>
+                    <!--Added role="list item" to unordered list for  visually impaired -->
+                    <!--Added aria-controls to unordered list for visually impaired -->
+                    <li role="listitem" aria-controls="search-engine-optimization">
+                        <a href="#search-engine-optimization">Search Engine Optimization</a>
+                    </li>
+                    <li role="listitem" aria-controls="online-reputation-management">
+                        <li >
+                        <a href="#online-reputation-management">Online Reputation Management</a>
+                    </li>
+                    <li role="listitem" aria-controls="social-media-marketing">
+                        <li >
+                        <a href="#social-media-marketing">Social Media Marketing!</a>
+                    </li>
+                </ul>
+            </nav>
+
         </div>
     </div>
     <div class="hero"></div>
     <div class="content">
-        <div class="search-engine-optimization">
-            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="SEO on notepad" />
+        <!-- Added "alt" to all images for those who may not be able to see images-->
+        <div class="search-engine-optimization" id="search-engine-optimization">
+            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="SEO written on a notepad" />
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they

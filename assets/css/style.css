@@ -75,6 +75,8 @@ p {
     margin-left: 20px;
 }
 
+/* Reduced the css to .benefits code was being repeated */
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,16 +88,22 @@ p {
     background-color: #2589bd;
 }
 
+/* Reduced the css to .benefit-content as code was being repeated */
+
 .benefit-content{
     margin-bottom: 32px;
     color: #ffffff;
 
 }
 
+/* Reduced the css to .benefit-content h3 as code was being repeated */
+
 .benefit-content h3 {
     margin-bottom: 10px;
     text-align: center;
 }
+
+/* Reduced the css to .benefit-content img as code was being repeated */
 
 .benefit-content img {
     display: block;
@@ -103,7 +111,9 @@ p {
     max-width: 150px;
 }
 
-.content {
+/* Reduced the css to .content-section1 as code was being repeated */
+
+.content-section1{
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -112,11 +122,15 @@ p {
     color: #ffffff;
 }
 
-.content img {
+/* Reduced the css to .content-section1 img as code was being repeated */
+
+.content-section1 img {
     max-height: 200px;
 }
 
-.content h2 {
+/* Reduced the css to .content-section1 h2 as code was being repeated */
+
+.content-section content content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
